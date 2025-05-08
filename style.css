@@ -1,0 +1,100 @@
+.container{
+    height: 220px;
+    width: 250px;
+    color: #4cd137;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 130px;
+    margin-left: 80px;
+    border-radius: 15px;
+    background: #2f3640;
+    box-shadow: 0px 0px 20px #4cd137;
+    text-shadow: 0px 0px 5px #4cd137;
+    transition: all 0.3s ease;
+    background-color: #2f3640;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 20px #4cd137;
+    text-shadow: 0px 0px 5px #4cd137;
+    transition: all 0.3s ease;
+
+}
+input{
+    width: 25px;
+    height: 25px;
+    margin: 8px 3px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    text-align: center;
+    color: #4cd137;
+    background: transparent;
+    transition: all 0.3s ease;
+
+}
+.send{
+    color: #ecf0f1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px #4cd137;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.button{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    color:#4cd137;
+    background: #2f3640;
+    border-radius: 10px;
+    border: 1px solid #ecf0f1;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button:hover{
+    color: #4cd137;
+    background:#ecf0f1;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.button:active{
+    background: #4cd137;
+    color: #2f3640;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:focus{
+    outline: none;
+}
+.terms{
+    color: #ecf0f1;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px #4cd137;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.terms:hover{
+    color: #4cd137;
+    background:#ecf0f1;
+    border-radius: 10px;
+    cursor: pointer;
+}
